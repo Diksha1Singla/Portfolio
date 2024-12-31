@@ -10,11 +10,11 @@ const allProjects = [
   },
   {
     title: "SOCH",
-    img: require("../img/Project3.png"),
+    img: require("../img/Dproject3.jpg"),
     description:
       "SOCH is a NGO with a mission to stop child labour and  protect and promote the rights of children.",
-    websiteUrl: "https://tarungoyal0025.github.io/soch",
-    githubUrl: "https://github.com/tarungoyal0025/soch",
+    websiteUrl: "",
+    githubUrl: "https://github.com/Diksha1Singla/SOCH.git",
     techStack: ["ReactJS"],
   },
   {
@@ -38,39 +38,39 @@ const allProjects = [
 
   {
     title: "Book Search ",
-    img: require("../img/Project5.png"),
+    img: require("../img/Dproject5.png"),
     description:
       "Book Search is a website to search books from google. This website uses the Google Books APIs.",
-    websiteUrl: "https://tarungoyal0025.github.io/booksearch/",
-    githubUrl: "https://github.com/tarungoyal0025/booksearch",
+    // websiteUrl: "https://tarungoyal0025.github.io/booksearch/",
+    githubUrl: "https://github.com/Diksha1Singla/Booksearch-.git",
     techStack: ["React", "Javascript", "API"],
   },
   {
-    title: "Reddit Memes",
-    img: require("../img/Project7.png"),
+    title: "Search Location",
+    img: require("../img/Dproject1.jpg"),
     description:
-      "The website simply displays the reddit memes, I have used reddit api for data",
-    websiteUrl: "https://tarungoyal0025.github.io/Reddit-Memes/",
-    githubUrl: "https://github.com/tarungoyal0025/Reddit-Memes",
-    techStack: ["ReactJS", "SCSS", "API"],
+      "A web application, enabling students to efficiently find class locations using class codes from their timetables, enhancing campus navigation and scheduling." , 
+    webkitURL:"",
+    githubUrl: "https://github.com/Diksha1Singla/SearchLocation.git",
+    techStack: ["Mern Stack"],
   },
   {
     title: "Keep Notes",
-    img: require("../img/Project4.png"),
-    description: "A web app to save your notes , you can delete and achieve",
-    websiteUrl: "https://tarungoyal0025.github.io/keep-notes/",
-    githubUrl: "https://github.com/tarungoyal0025/keep-notes",
-    techStack: ["React", "Javascript", "API"],
+    img: require("../img/Dprofile4.png"),
+    description: "A web app to save your notes , you can delete and edit",
+    // websiteUrl: "https://tarungoyal0025.github.io/keep-notes/",
+    githubUrl: "https://github.com/Diksha1Singla/CloudBook.git",
+    techStack: ["MERN Stack"],
   },
 
   {
-    title: "Weather App",
-    img: require("../img/Project6.png"),
+    title: "NewsApp",
+    img: require("../img/Dproject2.jpeg"),
     description:
-      "Is a website to find the current weather around the world, this website uses the OpenWeather API.",
-    websiteUrl: "https://muhthoriqas.github.io/WeatherApp-React/",
-    githubUrl: "https://github.com/Muhthoriqas/WeatherApp-React",
-    techStack: ["ReactJS", "SCSS", "API"],
+      "Is a website to find the Latest News around the world, this website uses the news API.",
+    websiteUrl: "",
+    githubUrl: "https://github.com/Diksha1Singla/NewsApp.git",
+    techStack: ["ReactJS","API"],
   },
 
 ];

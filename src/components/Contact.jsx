@@ -28,7 +28,7 @@ function Contact() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Tarun Goyal- Contact</title>
+          <title>Diksha- Contact</title>
         </Helmet>
       </HelmetProvider>
       <Container fluid className="contact-wrapper">
@@ -47,8 +47,8 @@ function Contact() {
                     <AiOutlineMail />
                     &nbsp;&nbsp;Email
                   </h3>
-                  <p>goyaltarun0025@gmail.com</p>
-                  <CopyToClipboard text="goyaltarun0025@gmail.com">
+                  <p>diksha34020@gmail.com</p>
+                  <CopyToClipboard text="diksha34020@gmail.com">
                     <button className="btn-copy" onClick={actionCopy}>
                       {alreadyCopy}&nbsp;&nbsp;
                       <FiCopy />
@@ -62,9 +62,9 @@ function Contact() {
                     <AiFillLinkedin />
                     &nbsp;&nbsp;Linkedin
                   </h3>
-                  <p>Tarun Goyal</p>
+                  <p>diksha1singla</p>
                   <a
-                    href="https://www.linkedin.com/in/tarungoyal0025/"
+                    href="https://www.linkedin.com/in/diksha1singla"
                     target="_blank"
                     rel="noreferrer"
                     className="btn-direct"
@@ -80,9 +80,9 @@ function Contact() {
                     <AiFillGithub />
                     &nbsp;&nbsp;GitHub
                   </h3>
-                  <p>tarungoyal0025</p>
+                  <p>Diksha1Singla</p>
                   <a
-                    href="https://github.com/tarungoyal0025"
+                    href="https://github.com/Diksha1Singla"
                     target="_blank"
                     rel="noreferrer"
                     className="btn-direct"
@@ -98,9 +98,9 @@ function Contact() {
                     <AiFillInstagram />
                     &nbsp;&nbsp;Instagram
                   </h3>
-                  <p>goyaltarun_0025</p>
+                  <p>singla_dikshaa</p>
                   <a
-                    href="https://www.instagram.com/tarungoyal_0025/"
+                    href="https://www.instagram.com/singla_dikshaa"
                     target="_blank"
                     rel="noreferrer"
                     className="btn-direct"

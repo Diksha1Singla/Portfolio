@@ -11,7 +11,7 @@ function SideVertical(props) {
   const date = new Date().toISOString().slice(0, 10);
 
   switch (pathname) {
-    case "/portfolio-tar":
+    case "/portfolio":
       numberPage = "01";
       titlePage = "Home";
       break;
@@ -40,11 +40,11 @@ function SideVertical(props) {
 
   // Direct Up
   switch (pathname) {
-    case "/portfolio-tar":
+    case "/portfolio":
       directUp = "/contact";
       break;
     case "/about":
-      directUp = "/portfolio-tar";
+      directUp = "/portfolio";
       break;
     case "/skills":
       directUp = "/about";
@@ -60,7 +60,7 @@ function SideVertical(props) {
 
   // Direct Down
   switch (pathname) {
-    case "/portfolio-tar":
+    case "/portfolio":
       directDown = "/about";
       break;
     case "/about":
@@ -73,7 +73,7 @@ function SideVertical(props) {
       directDown = "/contact";
       break;
     case "/contact":
-      directDown = "/portfolio-tar";
+      directDown = "/portfolio";
       break;
     default:
   }

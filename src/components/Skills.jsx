@@ -8,7 +8,7 @@ function Skills() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Tarun Goyal - Skills</title>
+          <title>Diksha - Skills</title>
         </Helmet>
       </HelmetProvider>
       <Container fluid className="skills-wrapper">
@@ -56,10 +56,10 @@ function Skills() {
                 className="devicon-express-original-wordmark colored"
                 title="Express JS"
               ></i>
-              <i
+              {/* <i
                 className="devicon-materialui-plain colored"
                 title="Material UI"
-              ></i>
+              ></i> */}
             </div>
           </div>
           <div className="row my-4 animate__animated animate__flipInX animate_slow">
@@ -81,10 +81,6 @@ function Skills() {
                 class="devicon-nodejs-plain-wordmark colored"
                 title="Node JS"
               ></i>
-
-             
-              
-              
             </div>
           </div>
           <div className="row my-4 animate__animated animate__flipInX animate_slow">

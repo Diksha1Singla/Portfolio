@@ -21,6 +21,7 @@ function Experience() {
         <div className="about-right animate__animated animate__fadeIn animate__slower py-3">
           <div className="box">
             <div className="box1">
+            <br/>
               <h2>BCL Industries Ltd - SDE Intern</h2>
               <p>July 2022 - Aug 2022</p>
               <p>
@@ -34,6 +35,7 @@ function Experience() {
                 real-world setting.
               </p>
               <h4>Responsibilities</h4>
+              <br/>
             </div>
             <p>
               <ul>
@@ -65,6 +67,7 @@ function Experience() {
           </div>
           <div className="box">
             <div className="box1">
+            <br/>
               <h2>DIC - Web Developer </h2>
               <p>June 2023 - July 2023</p>
               <p>
@@ -75,11 +78,7 @@ function Experience() {
                 website. My involvement in the website was a rewarding and
                 enriching experience. It fueled my passion for web development.
               </p>
-              &nbsp
-              &nbsp
-              &nbsp
-              &nbsp
-                &nbsp
+<br/>
             </div>
           </div>
         </div>

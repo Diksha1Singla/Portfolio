@@ -10,7 +10,7 @@ function NavBot() {
   const { pathname } = useLocation();
 
   switch (pathname) {
-    case "/portfolio-tar":
+    case "/portfolio":
       numberPage = "01";
       titlePage = "Home";
       break;
@@ -40,11 +40,11 @@ function NavBot() {
 
   // Direct Up
   switch (pathname) {
-    case "/portfolio-tar":
+    case "/portfolio":
       directUp = "/contact";
       break;
     case "/about":
-      directUp = "/portfolio-tar";
+      directUp = "/portfolio";
       break;
     case "/experience":
       directUp = "/about";
@@ -63,7 +63,7 @@ function NavBot() {
 
   // Direct Down
   switch (pathname) {
-    case "/portfolio-tar":
+    case "/portfolio":
       directDown = "/about";
       break;
     case "/about":
@@ -79,7 +79,7 @@ function NavBot() {
       directDown = "/contact";
       break;
     case "/contact":
-      directDown = "/portfolio-tar";
+      directDown = "/portfolio";
       break;
     default:
   }

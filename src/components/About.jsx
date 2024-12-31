@@ -7,7 +7,7 @@ function About() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Tarun Goyal - About</title>
+          <title>Diksha - About</title>
         </Helmet>
       </HelmetProvider>
       <Container fluid className="about-wrapper">
@@ -19,9 +19,9 @@ function About() {
         </div>
         <div className="about-right animate__animated animate__fadeIn animate__slower py-3">
           <p>
-            Hello! My name is Tarun Goyal and I'm a final year student pursuing
-            Bachelor of Engineering in Computer Science at UIET, from Panjab
-            University. During my academic journey, I have enthusiastically
+            Hello! My name is Diksha and I'm a Pre-final year student pursuing
+            Bachelor of Engineering in Computer Science, from Thapar
+            University, Patiala. During my academic journey, I have enthusiastically
             explored the field of engineering, always curious to learn more and
             eager to gain knowledge. This has led me to acquire a diverse set of
             skills and achieve significant accomplishments, making my
@@ -34,7 +34,7 @@ function About() {
             allowing me to create responsive and innovative web applications.
           </p>
           <p>
-            One of my proudest achievements is successfully filling a patent.
+            {/* One of my proudest achievements is successfully filling a patent. */}
             Solving problems and creating solutions that can make a real
             difference has taught me the importance of protecting intellectual
             property and valuing originality in engineering.
@@ -60,11 +60,7 @@ function About() {
             discussions and exploring opportunities that align with my interests
             and aspirations.
           </p>
-          &nbsp
-              &nbsp
-              &nbsp
-              &nbsp
-                &nbsp
+          <br/>
         </div>
       </Container>
     </>

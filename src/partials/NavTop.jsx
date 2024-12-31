@@ -19,22 +19,22 @@ function NavTop() {
   if (toogleMenu) {
     return (
       <>
-        <NavTop />
+        {/* <NavTop /> */}
         <div className="menu">
           <Container fluid className="menu-close">
             <button className="toogle-menu ms-auto" onClick={toogleClose}>
               <GrClose />
             </button>
             <div className="menu-list">
-              <NavLink to="/portfolio-tar" onClick={toogleClose}>
+              <NavLink to="/portfolio" onClick={toogleClose}>
                 Home
               </NavLink>
               <NavLink to="/about" onClick={toogleClose}>
                 About
               </NavLink>
-              <NavLink to="/experience" onClick={toogleClose}>
+              {/* <NavLink to="/experience" onClick={toogleClose}>
                 Experience
-              </NavLink>
+              </NavLink> */}
               <NavLink to="/skills" onClick={toogleClose}>
                 Skills
               </NavLink>
@@ -56,8 +56,8 @@ function NavTop() {
       <Navbar className="navtop py-3" expand="lg">
         <Container fluid className="px-4">
           <Navbar.Brand className="navtop-brand">
-            <Link to="/portfolio-tar">
-              Tarun<i id="normal"> Goyal</i>
+            <Link to="/portfolio">
+              <i id="normal"> Diksha</i>
             </Link>
           </Navbar.Brand>
           <button className="toogle-menu" onClick={toogleOpen}>
@@ -72,14 +72,14 @@ function NavTop() {
                 About
               </NavLink>
             </Nav.Link>
-            <Nav.Link className="pe-3">
+            {/* <Nav.Link className="pe-3">
               <NavLink
                 to="/experience"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Experience
               </NavLink>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link className="pe-3">
               <NavLink
                 to="/skills"

@@ -6,11 +6,11 @@ function Footer() {
     <>
       <footer className="px-4">
         <div className="foot-left d-flex">
-          <p>Tarun Goyal &copy; 2023</p>
+          <p><a style={{color:"black",textDecoration:"none"}} href="https://www.linkedin.com/in/diksha1singla">Diksha</a> &copy; 2024</p>
         </div>
         <div className="foot-right d-flex">
           <a
-            href="https://github.com/tarungoyal0025"
+            href="https://github.com/Diksha1Singla"
             target="_blank"
             rel="noreferrer"
           >
@@ -18,7 +18,7 @@ function Footer() {
             &nbsp;&nbsp;GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/tarungoyal0025/"
+            href="https://www.linkedin.com/in/diksha1singla"
             target="_blank"
             rel="noreferrer"
           >
@@ -26,7 +26,7 @@ function Footer() {
             &nbsp;&nbsp;Linkedin
           </a>
           <a
-            href="mailto:goyaltarun0025@gmail.com"
+            href="mailto:diksha34020@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
@@ -34,7 +34,7 @@ function Footer() {
             &nbsp;&nbsp;Gmail
           </a>
           <a
-            href="https://www.instagram.com/tarungoyal_0025/"
+            href="https://www.instagram.com/singla_dikshaa"
             target="_blank"
             rel="noreferrer"
           >

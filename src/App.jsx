@@ -25,7 +25,7 @@ function App() {
       <>
         <div className="preload">
           <h1>
-            <strong>Tarun Goyal</strong>
+            <strong>Diksha</strong>
           </h1>
           <p>─────</p>
           <Spinner animation="grow" />
@@ -37,10 +37,10 @@ function App() {
   return (
     <>
       <NavTop />
-      <div className="d-flex">
+      <div className="d-flex" style={{marginBottom:"2rem"}}>
         <SideVertical />
         <Routes>
-          <Route path="/portfolio-tar" element={<Home />}></Route>
+          <Route path="/portfolio" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/experience" element={<Experience />}></Route>
           <Route path="/skills" element={<Skills />}></Route>

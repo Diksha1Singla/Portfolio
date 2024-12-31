@@ -14,7 +14,7 @@ function Home() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Tarun Goyal - Home</title>
+          <title>Diksha - Home</title>
         </Helmet>
       </HelmetProvider>
       <Container fluid className="home-wrapper">
@@ -23,8 +23,8 @@ function Home() {
             Hello ! My name is
           </h3>
           <h2>
-            <span className="name-hover">Tarun  </span>
-            <span className="name-hover">Goyal</span>
+            <span className="name-hover">Diksha</span>
+            {/* <span className="name-hover">Goyal</span> */}
           </h2>
           <NavLink to="/contact" className="btn-download text-center">
             Let's Connect
