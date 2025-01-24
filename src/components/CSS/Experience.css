@@ -1,0 +1,9 @@
+.box{
+  background-color: #aeaeae;;  
+  border-radius: 10px;
+  
+}
+
+.box .box1{
+  text-align: center;
+}
