@@ -1,13 +1,4 @@
 const allProjects = [
-  // {
-  //   title: "Rakt Sathi",
-  //   img: require("../img/Project1.png"),
-  //   description:
-  //     "Rakt Sathi works as a platform for users and blood banks to manage their stocks along with scheduling blood camps. ",
-  //   websiteUrl: "",
-  //   githubUrl: "https://github.com/tarungoyal0025/raktsathi",
-  //   techStack: ["Mern Stack"],
-  // },
   {
     title: "SOCH",
     img: require("../img/Dproject3.jpg"),
@@ -17,32 +8,12 @@ const allProjects = [
     githubUrl: "https://github.com/Diksha1Singla/SOCH.git",
     techStack: ["ReactJS"],
   },
-  // {
-  //   title: "TShoppee",
-  //   img: require("../img/Project2.png"),
-  //   description:
-  //     "TShoppe is a full-stack e commerce website with product catalogue, cart and filter functionality",
-  //   websiteUrl: "",
-  //   githubUrl: "https://github.com/tarungoyal0025/TShoppee",
-  //   techStack: ["Mern Stack"],
-  // },
-  // {
-  //   title: "Recipe Dhundho",
-  //   img: require("../img/Project8.png"),
-  //   description:
-  //     "Explore a world of culinary delights on Recipe Dhundho, featuring a user-friendly search function, regional sorting, and a diverse range of dishes for every palate.",
-  //   websiteUrl: "https://tarungoyal0025.github.io/RecipeDhundho/",
-  //   githubUrl: "https://github.com/tarungoyal0025/RecipeDhundho",
-  //   techStack: ["HTML", "CSS","JS"],
-  // },
-
   {
     title: "Book Search ",
     img: require("../img/Dproject5.png"),
     description:
       "Book Search is a website to search books from google. This website uses the Google Books APIs.",
-    // websiteUrl: "https://tarungoyal0025.github.io/booksearch/",
-    githubUrl: "https://github.com/Diksha1Singla/Booksearch-.git",
+    githubUrl: "https://github.com/Diksha1Singla/BookSearch.git",
     techStack: ["React", "Javascript", "API"],
   },
   {
@@ -51,14 +22,13 @@ const allProjects = [
     description:
       "A web application, enabling students to efficiently find class locations using class codes from their timetables, enhancing campus navigation and scheduling." , 
     webkitURL:"",
-    githubUrl: "https://github.com/Diksha1Singla/SearchLocation.git",
-    techStack: ["Mern Stack"],
+    githubUrl: "https://github.com/Diksha1Singla/SearchData.git",
+    techStack: ["ReactJs, ExpressJs, NodeJs"],
   },
   {
     title: "Keep Notes",
     img: require("../img/Dprofile4.png"),
     description: "A web app to save your notes , you can delete and edit",
-    // websiteUrl: "https://tarungoyal0025.github.io/keep-notes/",
     githubUrl: "https://github.com/Diksha1Singla/CloudBook.git",
     techStack: ["MERN Stack"],
   },
