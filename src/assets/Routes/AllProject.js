@@ -26,15 +26,15 @@ const allProjects = [
   //   githubUrl: "https://github.com/tarungoyal0025/TShoppee",
   //   techStack: ["Mern Stack"],
   // },
-  // {
-  //   title: "Recipe Dhundho",
-  //   img: require("../img/Project8.png"),
-  //   description:
-  //     "Explore a world of culinary delights on Recipe Dhundho, featuring a user-friendly search function, regional sorting, and a diverse range of dishes for every palate.",
-  //   websiteUrl: "https://tarungoyal0025.github.io/RecipeDhundho/",
-  //   githubUrl: "https://github.com/tarungoyal0025/RecipeDhundho",
-  //   techStack: ["HTML", "CSS","JS"],
-  // },
+  {
+    title: "Live Chat App",
+    img: require("../img/Img1.png"),
+    description:
+      "A real-time chat app with seamless instant messaging using Socket.io for bi-directional communication.",
+      websiteUrl: "https://github.com/Diksha1Singla/CHATAPP.git",
+      githubUrl: "https://github.com/Diksha1Singla/CHATAPP.git",
+    techStack: ["HTML", "CSS","JS"],
+  },
 
   {
     title: "Book Search ",
@@ -42,7 +42,7 @@ const allProjects = [
     description:
       "Book Search is a website to search books from google. This website uses the Google Books APIs.",
     // websiteUrl: "https://tarungoyal0025.github.io/booksearch/",
-    githubUrl: "https://github.com/Diksha1Singla/Booksearch-.git",
+    githubUrl: "https://github.com/Diksha1Singla/BookSearch.git",
     techStack: ["React", "Javascript", "API"],
   },
   {
@@ -51,8 +51,8 @@ const allProjects = [
     description:
       "A web application, enabling students to efficiently find class locations using class codes from their timetables, enhancing campus navigation and scheduling." , 
     webkitURL:"",
-    githubUrl: "https://github.com/Diksha1Singla/SearchLocation.git",
-    techStack: ["Mern Stack"],
+    githubUrl: "https://github.com/Diksha1Singla/SearchData.git",
+    techStack: ["ReactJs, ExpressJs, NodeJs"],
   },
   {
     title: "Keep Notes",
